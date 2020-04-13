@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 using UnityEngine.UI;
@@ -18,6 +20,8 @@ public class Placer : MonoBehaviour
     void Awake()
     {
         aRRaycastManager = GetComponent<ARRaycastManager>();
+        if (SceneManager.GetActiveScene().name == "SampleScene")
+            img.sprite = ImgSelection.sprite;
     }
 
     bool TryGetPosition(out Vector2 touchPosition)
@@ -48,7 +52,8 @@ public class Placer : MonoBehaviour
                 {
                     spawned = prefab;
                     prefab.SetActive(true);
-                    img.sprite = ImgSelection.sprite;
+                    if(SceneManager.GetActiveScene().name=="SampleScene")
+                        img.sprite = ImgSelection.sprite;
 
                     prefab.transform.position = hitPose.position;
                     prefab.transform.rotation = hitPose.rotation;

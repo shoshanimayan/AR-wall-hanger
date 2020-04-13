@@ -1,9 +1,13 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ImageLoader
     - ImgSelection
     - Placer
     - frame
+    - inputSearch
+    - mainMenu
+    - nav
     Unity.XR.ARFoundation.dll:
     - UnityEngine.XR.ARFoundation.ARCameraBackground
     - UnityEngine.XR.ARFoundation.ARCameraManager
@@ -25,6 +29,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
@@ -59,31 +64,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9936}
     - Class: 114
-      Script: {instanceID: 10076}
+      Script: {instanceID: 10078}
     - Class: 114
-      Script: {instanceID: 10244}
+      Script: {instanceID: 10246}
     - Class: 114
-      Script: {instanceID: 10272}
+      Script: {instanceID: 10274}
     - Class: 114
-      Script: {instanceID: 10320}
+      Script: {instanceID: 10322}
     - Class: 114
-      Script: {instanceID: 10482}
+      Script: {instanceID: 10484}
     - Class: 114
-      Script: {instanceID: 10600}
+      Script: {instanceID: 10602}
     - Class: 114
-      Script: {instanceID: 10938}
+      Script: {instanceID: 10942}
     - Class: 114
-      Script: {instanceID: 11096}
+      Script: {instanceID: 11100}
     - Class: 114
-      Script: {instanceID: 11200}
+      Script: {instanceID: 11204}
     - Class: 114
-      Script: {instanceID: 11224}
+      Script: {instanceID: 11228}
     - Class: 114
-      Script: {instanceID: 11386}
+      Script: {instanceID: 11390}
     - Class: 114
-      Script: {instanceID: 11510}
+      Script: {instanceID: 11514}
     - Class: 114
-      Script: {instanceID: 11592}
+      Script: {instanceID: 11596}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -102,7 +107,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
-    Assets/Scenes/menu.unity:
+    Assets/Scenes/chooseType.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -134,19 +139,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9900}
     - Class: 114
-      Script: {instanceID: 10272}
+      Script: {instanceID: 10052}
     - Class: 114
-      Script: {instanceID: 10320}
+      Script: {instanceID: 10274}
     - Class: 114
-      Script: {instanceID: 10482}
+      Script: {instanceID: 10322}
     - Class: 114
-      Script: {instanceID: 11200}
+      Script: {instanceID: 10484}
     - Class: 114
-      Script: {instanceID: 11592}
+      Script: {instanceID: 11204}
     - Class: 114
-      Script: {instanceID: 12828}
+      Script: {instanceID: 11596}
     - Class: 114
-      Script: {instanceID: 14006}
+      Script: {instanceID: 21354}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -158,6 +163,165 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/menu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9690}
+    - Class: 114
+      Script: {instanceID: 9860}
+    - Class: 114
+      Script: {instanceID: 9900}
+    - Class: 114
+      Script: {instanceID: 10052}
+    - Class: 114
+      Script: {instanceID: 10322}
+    - Class: 114
+      Script: {instanceID: 10702}
+    - Class: 114
+      Script: {instanceID: 11204}
+    - Class: 114
+      Script: {instanceID: 11596}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/search.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9690}
+    - Class: 114
+      Script: {instanceID: 9860}
+    - Class: 114
+      Script: {instanceID: 9900}
+    - Class: 114
+      Script: {instanceID: 10322}
+    - Class: 114
+      Script: {instanceID: 10920}
+    - Class: 114
+      Script: {instanceID: 11204}
+    - Class: 114
+      Script: {instanceID: 11596}
+    - Class: 114
+      Script: {instanceID: 14388}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/test.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9690}
+    - Class: 114
+      Script: {instanceID: 9860}
+    - Class: 114
+      Script: {instanceID: 9900}
+    - Class: 114
+      Script: {instanceID: 9936}
+    - Class: 114
+      Script: {instanceID: 10246}
+    - Class: 114
+      Script: {instanceID: 10322}
+    - Class: 114
+      Script: {instanceID: 10602}
+    - Class: 114
+      Script: {instanceID: 10942}
+    - Class: 114
+      Script: {instanceID: 11100}
+    - Class: 114
+      Script: {instanceID: 11204}
+    - Class: 114
+      Script: {instanceID: 11228}
+    - Class: 114
+      Script: {instanceID: 11390}
+    - Class: 114
+      Script: {instanceID: 11514}
+    - Class: 114
+      Script: {instanceID: 11596}
+    - Class: 114
+      Script: {instanceID: 13060}
+    - Class: 114
+      Script: {instanceID: 14950}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -286,6 +450,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: frame
   - hash:
       serializedVersion: 2
       Hash: 7f5c55cb7b3151ce240452eb85500d32
@@ -436,6 +606,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ImgSelection
   - hash:
       serializedVersion: 2
       Hash: 5f1752ed2092162f016c19510c28a8b9
@@ -684,18 +860,39 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 4a1b26f9bb084ddbc93e657d9b4ea324
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: ImgSelection
+    className: ImageLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 5df88201aaf079ea040ca1017de21485
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: inputSearch
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: frame
+    className: holder
+  - hash:
+      serializedVersion: 2
+      Hash: c76dd25cf5f468d10e2bc7c1ee0e1e29
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: nav
+  - hash:
+      serializedVersion: 2
+      Hash: c76dd25cf5f468d10e2bc7c1ee0e1e29
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: mainMenu
   platform: 9
   scenePathNames:
+  - Assets/Scenes/chooseType.unity
+  - Assets/Scenes/search.unity
+  - Assets/Scenes/test.unity
   - Assets/Scenes/menu.unity
   - Assets/Scenes/SampleScene.unity
   playerPath: /Users/mayanshoshani/Documents/AR-wall-hanger/wall hanger AR/1

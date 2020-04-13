@@ -27,6 +27,6 @@ public class ImgSelection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (sprite!=null) { SceneManager.LoadScene(1); }
+        if (sprite!=null) { SceneManager.LoadScene(4); }
     }
 }
