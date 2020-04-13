@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
+using UnityEngine.UI;
 [RequireComponent(typeof(ARRaycastManager))]
 public class Placer : MonoBehaviour
 {
+    public Image img;
     public GameObject prefab;
     private GameObject spawned;
     private ARRaycastManager aRRaycastManager;
@@ -46,6 +48,7 @@ public class Placer : MonoBehaviour
                 {
                     spawned = prefab;
                     prefab.SetActive(true);
+                    img.sprite = ImgSelection.sprite;
 
                     prefab.transform.position = hitPose.position;
                     prefab.transform.rotation = hitPose.rotation;

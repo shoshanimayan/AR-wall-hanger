@@ -1096,75 +1096,91 @@ extern void SocketException_get_Message_m50B9DF4BB6F3B20F650E2F965B3DD654C897037
 // 0x0000022C System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedListNode`1::get_Next()
 // 0x0000022D T System.Collections.Generic.LinkedListNode`1::get_Value()
 // 0x0000022E System.Void System.Collections.Generic.LinkedListNode`1::Invalidate()
-// 0x0000022F System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
+// 0x0000022F System.Void System.Collections.Generic.Stack`1::.ctor()
+// 0x00000230 System.Int32 System.Collections.Generic.Stack`1::get_Count()
+// 0x00000231 System.Void System.Collections.Generic.Stack`1::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+// 0x00000232 System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.Stack`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+// 0x00000233 System.Collections.IEnumerator System.Collections.Generic.Stack`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000234 T System.Collections.Generic.Stack`1::Peek()
+// 0x00000235 T System.Collections.Generic.Stack`1::Pop()
+// 0x00000236 System.Void System.Collections.Generic.Stack`1::Push(T)
+// 0x00000237 System.Void System.Collections.Generic.Stack`1::ThrowForEmptyStack()
+// 0x00000238 System.Void System.Collections.Generic.Stack`1_Enumerator::.ctor(System.Collections.Generic.Stack`1<T>)
+// 0x00000239 System.Void System.Collections.Generic.Stack`1_Enumerator::Dispose()
+// 0x0000023A System.Boolean System.Collections.Generic.Stack`1_Enumerator::MoveNext()
+// 0x0000023B T System.Collections.Generic.Stack`1_Enumerator::get_Current()
+// 0x0000023C System.Void System.Collections.Generic.Stack`1_Enumerator::ThrowEnumerationNotStartedOrEnded()
+// 0x0000023D System.Object System.Collections.Generic.Stack`1_Enumerator::System.Collections.IEnumerator.get_Current()
+// 0x0000023E System.Void System.Collections.Generic.Stack`1_Enumerator::System.Collections.IEnumerator.Reset()
+// 0x0000023F System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
 extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_m7C7DB27BC4297A74A96AC53E1EDD3E7415DFB874 ();
-// 0x00000230 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.BypassElement::get_Properties()
+// 0x00000240 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.BypassElement::get_Properties()
 extern void BypassElement_get_Properties_m3B9626957B575CCBB4AF77A7349A9E481C99B220 ();
-// 0x00000231 System.Void System.Net.Configuration.BypassElementCollection::.ctor()
+// 0x00000241 System.Void System.Net.Configuration.BypassElementCollection::.ctor()
 extern void BypassElementCollection__ctor_m867AF1FE6DBB2768AA199F45039C3E2641A9627A ();
-// 0x00000232 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ConnectionManagementElement::get_Properties()
+// 0x00000242 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ConnectionManagementElement::get_Properties()
 extern void ConnectionManagementElement_get_Properties_mF0DEA60C9A6260A80894DDC65B1DA7868494594B ();
-// 0x00000233 System.Void System.Net.Configuration.ConnectionManagementElementCollection::.ctor()
+// 0x00000243 System.Void System.Net.Configuration.ConnectionManagementElementCollection::.ctor()
 extern void ConnectionManagementElementCollection__ctor_mA29AB3A62411F032C5EF86B16E7633A386000C7B ();
-// 0x00000234 System.Void System.Net.Configuration.ConnectionManagementSection::.ctor()
+// 0x00000244 System.Void System.Net.Configuration.ConnectionManagementSection::.ctor()
 extern void ConnectionManagementSection__ctor_m1112C1BE1A9466BBCDD5C2ED20E80CDE03B46CA4 ();
-// 0x00000235 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ConnectionManagementSection::get_Properties()
+// 0x00000245 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ConnectionManagementSection::get_Properties()
 extern void ConnectionManagementSection_get_Properties_m1737189D2D78E81728CFF1CCCEB99E1FFFEA3F19 ();
-// 0x00000236 System.Void System.Net.Configuration.DefaultProxySection::.ctor()
+// 0x00000246 System.Void System.Net.Configuration.DefaultProxySection::.ctor()
 extern void DefaultProxySection__ctor_m41EADE87065B61EDF32F67D2E62F04946886DAF6 ();
-// 0x00000237 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.DefaultProxySection::get_Properties()
+// 0x00000247 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.DefaultProxySection::get_Properties()
 extern void DefaultProxySection_get_Properties_m6F70EC02D977EB16F86354188A72DC87A8959555 ();
-// 0x00000238 System.Void System.Net.Configuration.DefaultProxySection::Reset(System.Configuration.ConfigurationElement)
+// 0x00000248 System.Void System.Net.Configuration.DefaultProxySection::Reset(System.Configuration.ConfigurationElement)
 extern void DefaultProxySection_Reset_m54AC9323047B1FB38795C9F466C1C01192F75276 ();
-// 0x00000239 System.Void System.Net.Configuration.ProxyElement::.ctor()
+// 0x00000249 System.Void System.Net.Configuration.ProxyElement::.ctor()
 extern void ProxyElement__ctor_mAFD852231DF0231726E41911409CB2725BE990AC ();
-// 0x0000023A System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ProxyElement::get_Properties()
+// 0x0000024A System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ProxyElement::get_Properties()
 extern void ProxyElement_get_Properties_m8A3EE4A3EEF2571DE4768730CEF4107331490377 ();
-// 0x0000023B System.Void System.Net.Configuration.HttpWebRequestElement::.ctor()
+// 0x0000024B System.Void System.Net.Configuration.HttpWebRequestElement::.ctor()
 extern void HttpWebRequestElement__ctor_mE3A4CA43FCC72E10B6C7B4920F429C028765E233 ();
-// 0x0000023C System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.HttpWebRequestElement::get_Properties()
+// 0x0000024C System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.HttpWebRequestElement::get_Properties()
 extern void HttpWebRequestElement_get_Properties_m531EDF2F56823100C47A9EEE1575143E5EB5463C ();
-// 0x0000023D System.Void System.Net.Configuration.Ipv6Element::.ctor()
+// 0x0000024D System.Void System.Net.Configuration.Ipv6Element::.ctor()
 extern void Ipv6Element__ctor_m3F7DF39E6E51517E1429BAE43FA782BF3AF17965 ();
-// 0x0000023E System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.Ipv6Element::get_Properties()
+// 0x0000024E System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.Ipv6Element::get_Properties()
 extern void Ipv6Element_get_Properties_m156008D7E5279C50DE4CEDB6D4D3CEDAF2ACF8DC ();
-// 0x0000023F System.Void System.Net.Configuration.NetSectionGroup::.ctor()
+// 0x0000024F System.Void System.Net.Configuration.NetSectionGroup::.ctor()
 extern void NetSectionGroup__ctor_m566D7C9466957BCE3B8FE2D0EA2582CC2F95F269 ();
-// 0x00000240 System.Void System.Net.Configuration.SettingsSection::.ctor()
+// 0x00000250 System.Void System.Net.Configuration.SettingsSection::.ctor()
 extern void SettingsSection__ctor_mC5F3D29EDC94D87B0B0542DE3702795441AC3005 ();
-// 0x00000241 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.SettingsSection::get_Properties()
+// 0x00000251 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.SettingsSection::get_Properties()
 extern void SettingsSection_get_Properties_m1ABB76DEC7441CFEDD4E7EDF99B8F5C258101254 ();
-// 0x00000242 System.Void System.Net.Configuration.PerformanceCountersElement::.ctor()
+// 0x00000252 System.Void System.Net.Configuration.PerformanceCountersElement::.ctor()
 extern void PerformanceCountersElement__ctor_m5A090222699B48BEB5FCC743198613FA8D081083 ();
-// 0x00000243 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.PerformanceCountersElement::get_Properties()
+// 0x00000253 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.PerformanceCountersElement::get_Properties()
 extern void PerformanceCountersElement_get_Properties_m3C7B73AC6E5F5E92426D7DC091A2ECE5CFCD9FD0 ();
-// 0x00000244 System.Void System.Net.Configuration.ServicePointManagerElement::.ctor()
+// 0x00000254 System.Void System.Net.Configuration.ServicePointManagerElement::.ctor()
 extern void ServicePointManagerElement__ctor_m61B031714F8498D467B5A0958EE62F73E0C58EB7 ();
-// 0x00000245 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ServicePointManagerElement::get_Properties()
+// 0x00000255 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ServicePointManagerElement::get_Properties()
 extern void ServicePointManagerElement_get_Properties_mC1C586246B4FE10AC90622A0CC6A5936D501B677 ();
-// 0x00000246 System.Void System.Net.Configuration.SocketElement::.ctor()
+// 0x00000256 System.Void System.Net.Configuration.SocketElement::.ctor()
 extern void SocketElement__ctor_m428B7094399223FFB9A5B62BF9D8CEA18A00A4C3 ();
-// 0x00000247 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.SocketElement::get_Properties()
+// 0x00000257 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.SocketElement::get_Properties()
 extern void SocketElement_get_Properties_m9CF8E9B1A9B41B7EC24A4F91CE2E8ECBF317426A ();
-// 0x00000248 System.Void System.Net.Configuration.WebProxyScriptElement::.ctor()
+// 0x00000258 System.Void System.Net.Configuration.WebProxyScriptElement::.ctor()
 extern void WebProxyScriptElement__ctor_mC8AF875E80D96B18AA387148009AE1C630D83591 ();
-// 0x00000249 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.WebProxyScriptElement::get_Properties()
+// 0x00000259 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.WebProxyScriptElement::get_Properties()
 extern void WebProxyScriptElement_get_Properties_m8AD25399F804B2D22BC8312102EBC28A0CAE6E26 ();
-// 0x0000024A System.Void System.Net.Configuration.WebRequestModulesSection::.ctor()
+// 0x0000025A System.Void System.Net.Configuration.WebRequestModulesSection::.ctor()
 extern void WebRequestModulesSection__ctor_m0CAB6F207E3B29D65AEA38A6AC191873E3000F02 ();
-// 0x0000024B System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.WebRequestModulesSection::get_Properties()
+// 0x0000025B System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.WebRequestModulesSection::get_Properties()
 extern void WebRequestModulesSection_get_Properties_m909A3E4C4A61BFCC9D09F397D9314E5F74F3FE44 ();
-// 0x0000024C System.Void System.Net.Configuration.WebRequestModuleElementCollection::.ctor()
+// 0x0000025C System.Void System.Net.Configuration.WebRequestModuleElementCollection::.ctor()
 extern void WebRequestModuleElementCollection__ctor_m8B880B0EAE7CEF1CB79CD264A9B6D62AB6A22961 ();
-// 0x0000024D System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.WebRequestModuleElement::get_Properties()
+// 0x0000025D System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.WebRequestModuleElement::get_Properties()
 extern void WebRequestModuleElement_get_Properties_m5B26EB7AF00EE742678560BD4D8C325D4549DEAB ();
-// 0x0000024E System.Void System.Diagnostics.DiagnosticsConfigurationHandler::.ctor()
+// 0x0000025E System.Void System.Diagnostics.DiagnosticsConfigurationHandler::.ctor()
 extern void DiagnosticsConfigurationHandler__ctor_m185BC74B0225A3E16EEB4164923931B79AAA0CF0 ();
-// 0x0000024F System.Object System.Diagnostics.DiagnosticsConfigurationHandler::Create(System.Object,System.Object,System.Xml.XmlNode)
+// 0x0000025F System.Object System.Diagnostics.DiagnosticsConfigurationHandler::Create(System.Object,System.Object,System.Xml.XmlNode)
 extern void DiagnosticsConfigurationHandler_Create_mCC7EF5B43B6913E2429B37EC5923202EBB20AA96 ();
-// 0x00000250 System.Void Unity.ThrowStub::ThrowNotSupportedException()
+// 0x00000260 System.Void Unity.ThrowStub::ThrowNotSupportedException()
 extern void ThrowStub_ThrowNotSupportedException_mF1DE187697F740D8C18B8966BBEB276878CD86FD ();
-static Il2CppMethodPointer s_methodPointers[592] = 
+static Il2CppMethodPointer s_methodPointers[608] = 
 {
 	SR_GetString_m9548BD6DD52DFDB46372F211078AE57FA2401E39,
 	SR_GetString_m9D671CBA422B18D15B8FF59B22DCCEB32E3D16E2,
@@ -1724,6 +1740,22 @@ static Il2CppMethodPointer s_methodPointers[592] =
 	NULL,
 	NULL,
 	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
 	U3CPrivateImplementationDetailsU3E_ComputeStringHash_m7C7DB27BC4297A74A96AC53E1EDD3E7415DFB874,
 	BypassElement_get_Properties_m3B9626957B575CCBB4AF77A7349A9E481C99B220,
 	BypassElementCollection__ctor_m867AF1FE6DBB2768AA199F45039C3E2641A9627A,
@@ -1759,15 +1791,15 @@ static Il2CppMethodPointer s_methodPointers[592] =
 	DiagnosticsConfigurationHandler_Create_mCC7EF5B43B6913E2429B37EC5923202EBB20AA96,
 	ThrowStub_ThrowNotSupportedException_mF1DE187697F740D8C18B8966BBEB276878CD86FD,
 };
-static const int32_t s_InvokerIndices[592] = 
+static const int32_t s_InvokerIndices[608] = 
 {
 	1,
 	2,
 	0,
-	1002,
 	1003,
 	1004,
 	1005,
+	1006,
 	114,
 	114,
 	114,
@@ -1777,22 +1809,22 @@ static const int32_t s_InvokerIndices[592] =
 	114,
 	94,
 	114,
-	1006,
+	1007,
 	9,
 	114,
 	23,
 	212,
 	379,
 	379,
-	1007,
-	1007,
+	1008,
+	1008,
 	14,
 	23,
 	31,
 	26,
 	136,
 	27,
-	1008,
+	1009,
 	43,
 	171,
 	171,
@@ -1816,21 +1848,20 @@ static const int32_t s_InvokerIndices[592] =
 	14,
 	111,
 	9,
-	1009,
+	1010,
 	14,
 	10,
-	852,
+	853,
 	172,
 	23,
-	1010,
-	23,
-	160,
-	34,
-	160,
 	1011,
+	23,
+	160,
+	34,
+	160,
+	1012,
 	34,
 	23,
-	1012,
 	1013,
 	1014,
 	1015,
@@ -1842,15 +1873,16 @@ static const int32_t s_InvokerIndices[592] =
 	1021,
 	1022,
 	1023,
-	95,
-	498,
-	48,
-	48,
-	48,
-	48,
 	1024,
+	95,
+	499,
+	48,
+	48,
+	48,
+	48,
 	1025,
-	766,
+	1026,
+	767,
 	9,
 	9,
 	9,
@@ -1858,9 +1890,9 @@ static const int32_t s_InvokerIndices[592] =
 	160,
 	0,
 	59,
-	856,
-	1026,
+	857,
 	1027,
+	1028,
 	34,
 	160,
 	26,
@@ -1871,13 +1903,13 @@ static const int32_t s_InvokerIndices[592] =
 	26,
 	171,
 	171,
-	1028,
 	1029,
 	1030,
 	1031,
 	1032,
 	1033,
 	1034,
+	1035,
 	48,
 	48,
 	48,
@@ -1886,8 +1918,8 @@ static const int32_t s_InvokerIndices[592] =
 	14,
 	10,
 	14,
-	578,
-	632,
+	579,
+	633,
 	54,
 	49,
 	3,
@@ -1900,37 +1932,37 @@ static const int32_t s_InvokerIndices[592] =
 	0,
 	114,
 	14,
-	578,
-	632,
+	579,
+	633,
 	54,
 	35,
-	1035,
-	1036,
 	1036,
 	1037,
 	1037,
+	1038,
+	1038,
 	209,
 	344,
+	1039,
 	1038,
-	1037,
-	1039,
-	1039,
-	1035,
-	529,
 	1040,
+	1040,
+	1036,
+	530,
 	1041,
 	1042,
 	1043,
-	1043,
 	1044,
-	88,
+	1044,
 	1045,
-	336,
+	88,
 	1046,
-	338,
+	336,
 	1047,
-	1035,
+	338,
 	1048,
+	1036,
+	1049,
 	102,
 	26,
 	177,
@@ -1939,11 +1971,11 @@ static const int32_t s_InvokerIndices[592] =
 	23,
 	26,
 	136,
-	1049,
+	1050,
 	171,
 	171,
+	907,
 	906,
-	905,
 	10,
 	280,
 	14,
@@ -1951,28 +1983,28 @@ static const int32_t s_InvokerIndices[592] =
 	0,
 	28,
 	3,
-	1050,
-	23,
-	23,
 	1051,
+	23,
+	23,
+	1052,
 	14,
 	3,
 	23,
-	1052,
+	1053,
 	114,
 	31,
-	551,
+	552,
 	26,
-	26,
-	26,
-	1053,
-	1051,
 	26,
 	26,
 	1054,
-	42,
-	42,
+	1052,
+	26,
+	26,
 	1055,
+	42,
+	42,
+	1056,
 	206,
 	94,
 	94,
@@ -1981,11 +2013,11 @@ static const int32_t s_InvokerIndices[592] =
 	94,
 	94,
 	48,
-	1056,
 	1057,
 	1058,
-	1058,
 	1059,
+	1059,
+	1060,
 	0,
 	0,
 	164,
@@ -1993,12 +2025,12 @@ static const int32_t s_InvokerIndices[592] =
 	14,
 	34,
 	23,
-	1060,
 	1061,
+	1062,
 	41,
 	23,
-	1053,
-	1062,
+	1054,
+	1063,
 	46,
 	0,
 	0,
@@ -2014,21 +2046,21 @@ static const int32_t s_InvokerIndices[592] =
 	14,
 	28,
 	23,
-	735,
+	736,
 	31,
-	1063,
-	744,
-	419,
+	1064,
+	745,
+	420,
 	28,
 	114,
-	397,
+	398,
 	14,
 	114,
 	4,
 	3,
 	169,
-	1064,
-	560,
+	1065,
+	561,
 	38,
 	293,
 	114,
@@ -2041,7 +2073,7 @@ static const int32_t s_InvokerIndices[592] =
 	14,
 	14,
 	14,
-	1065,
+	1066,
 	26,
 	34,
 	10,
@@ -2087,17 +2119,17 @@ static const int32_t s_InvokerIndices[592] =
 	48,
 	114,
 	48,
-	1066,
+	1067,
 	23,
 	23,
 	114,
 	26,
 	23,
 	23,
-	1067,
+	1068,
 	14,
-	551,
-	551,
+	552,
+	552,
 	26,
 	26,
 	32,
@@ -2118,7 +2150,7 @@ static const int32_t s_InvokerIndices[592] =
 	363,
 	10,
 	3,
-	1068,
+	1069,
 	0,
 	23,
 	32,
@@ -2133,7 +2165,7 @@ static const int32_t s_InvokerIndices[592] =
 	28,
 	37,
 	28,
-	735,
+	736,
 	118,
 	23,
 	280,
@@ -2210,15 +2242,15 @@ static const int32_t s_InvokerIndices[592] =
 	319,
 	319,
 	319,
-	1069,
-	1069,
+	1070,
+	1070,
 	14,
 	14,
 	14,
 	3,
 	23,
-	397,
-	1070,
+	398,
+	1071,
 	114,
 	114,
 	10,
@@ -2226,7 +2258,7 @@ static const int32_t s_InvokerIndices[592] =
 	116,
 	14,
 	319,
-	397,
+	398,
 	26,
 	116,
 	319,
@@ -2236,8 +2268,8 @@ static const int32_t s_InvokerIndices[592] =
 	26,
 	28,
 	23,
-	397,
-	582,
+	398,
+	583,
 	10,
 	26,
 	37,
@@ -2245,10 +2277,10 @@ static const int32_t s_InvokerIndices[592] =
 	14,
 	319,
 	23,
-	397,
-	397,
-	397,
-	397,
+	398,
+	398,
+	398,
+	398,
 	309,
 	14,
 	26,
@@ -2264,7 +2296,7 @@ static const int32_t s_InvokerIndices[592] =
 	32,
 	142,
 	14,
-	419,
+	420,
 	9,
 	10,
 	3,
@@ -2279,6 +2311,22 @@ static const int32_t s_InvokerIndices[592] =
 	32,
 	171,
 	14,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
 	-1,
 	-1,
 	-1,
@@ -2354,51 +2402,62 @@ static const int32_t s_InvokerIndices[592] =
 	177,
 	3,
 };
-static const Il2CppTokenRangePair s_rgctxIndices[2] = 
+static const Il2CppTokenRangePair s_rgctxIndices[4] = 
 {
 	{ 0x0200005E, { 0, 23 } },
 	{ 0x0200005F, { 23, 2 } },
+	{ 0x02000061, { 25, 6 } },
+	{ 0x02000062, { 31, 3 } },
 };
-static const Il2CppRGCTXDefinition s_rgctxValues[25] = 
+static const Il2CppRGCTXDefinition s_rgctxValues[34] = 
 {
-	{ (Il2CppRGCTXDataType)3, 9879 },
-	{ (Il2CppRGCTXDataType)2, 10494 },
-	{ (Il2CppRGCTXDataType)3, 9880 },
-	{ (Il2CppRGCTXDataType)3, 9881 },
-	{ (Il2CppRGCTXDataType)3, 9882 },
-	{ (Il2CppRGCTXDataType)3, 9883 },
-	{ (Il2CppRGCTXDataType)3, 9884 },
-	{ (Il2CppRGCTXDataType)3, 9885 },
-	{ (Il2CppRGCTXDataType)3, 9886 },
-	{ (Il2CppRGCTXDataType)3, 9887 },
-	{ (Il2CppRGCTXDataType)3, 9888 },
-	{ (Il2CppRGCTXDataType)2, 12740 },
-	{ (Il2CppRGCTXDataType)2, 10495 },
-	{ (Il2CppRGCTXDataType)3, 9889 },
-	{ (Il2CppRGCTXDataType)2, 10497 },
-	{ (Il2CppRGCTXDataType)3, 9890 },
-	{ (Il2CppRGCTXDataType)3, 9891 },
-	{ (Il2CppRGCTXDataType)3, 9892 },
-	{ (Il2CppRGCTXDataType)3, 9893 },
-	{ (Il2CppRGCTXDataType)2, 10496 },
-	{ (Il2CppRGCTXDataType)3, 9894 },
-	{ (Il2CppRGCTXDataType)1, 10496 },
-	{ (Il2CppRGCTXDataType)2, 10496 },
-	{ (Il2CppRGCTXDataType)3, 9895 },
-	{ (Il2CppRGCTXDataType)2, 10503 },
+	{ (Il2CppRGCTXDataType)3, 11482 },
+	{ (Il2CppRGCTXDataType)2, 11822 },
+	{ (Il2CppRGCTXDataType)3, 11483 },
+	{ (Il2CppRGCTXDataType)3, 11484 },
+	{ (Il2CppRGCTXDataType)3, 11485 },
+	{ (Il2CppRGCTXDataType)3, 11486 },
+	{ (Il2CppRGCTXDataType)3, 11487 },
+	{ (Il2CppRGCTXDataType)3, 11488 },
+	{ (Il2CppRGCTXDataType)3, 11489 },
+	{ (Il2CppRGCTXDataType)3, 11490 },
+	{ (Il2CppRGCTXDataType)3, 11491 },
+	{ (Il2CppRGCTXDataType)2, 15173 },
+	{ (Il2CppRGCTXDataType)2, 11823 },
+	{ (Il2CppRGCTXDataType)3, 11492 },
+	{ (Il2CppRGCTXDataType)2, 11825 },
+	{ (Il2CppRGCTXDataType)3, 11493 },
+	{ (Il2CppRGCTXDataType)3, 11494 },
+	{ (Il2CppRGCTXDataType)3, 11495 },
+	{ (Il2CppRGCTXDataType)3, 11496 },
+	{ (Il2CppRGCTXDataType)2, 11824 },
+	{ (Il2CppRGCTXDataType)3, 11497 },
+	{ (Il2CppRGCTXDataType)1, 11824 },
+	{ (Il2CppRGCTXDataType)2, 11824 },
+	{ (Il2CppRGCTXDataType)3, 11498 },
+	{ (Il2CppRGCTXDataType)2, 11831 },
+	{ (Il2CppRGCTXDataType)3, 11499 },
+	{ (Il2CppRGCTXDataType)2, 15174 },
+	{ (Il2CppRGCTXDataType)3, 11500 },
+	{ (Il2CppRGCTXDataType)3, 11501 },
+	{ (Il2CppRGCTXDataType)3, 11502 },
+	{ (Il2CppRGCTXDataType)3, 11503 },
+	{ (Il2CppRGCTXDataType)3, 11504 },
+	{ (Il2CppRGCTXDataType)3, 11505 },
+	{ (Il2CppRGCTXDataType)2, 11857 },
 };
 extern const Il2CppCodeGenModule g_SystemCodeGenModule;
 const Il2CppCodeGenModule g_SystemCodeGenModule = 
 {
 	"System.dll",
-	592,
+	608,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,
 	NULL,
-	2,
+	4,
 	s_rgctxIndices,
-	25,
+	34,
 	s_rgctxValues,
 	NULL,
 };
