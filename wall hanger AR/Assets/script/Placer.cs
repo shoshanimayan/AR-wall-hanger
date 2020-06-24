@@ -9,8 +9,8 @@ using UnityEngine.UI;
 [RequireComponent(typeof(ARRaycastManager))]
 public class Placer : MonoBehaviour
 {
-    public Image img;
-    public GameObject prefab;
+    public Image img;//where image is shown
+    public GameObject prefab; //wall frame objeect
     private GameObject spawned;
     private ARRaycastManager aRRaycastManager;
     private Vector2 touchPosition;
@@ -21,9 +21,9 @@ public class Placer : MonoBehaviour
     {
         aRRaycastManager = GetComponent<ARRaycastManager>();
         if (SceneManager.GetActiveScene().name == "SampleScene")
-            img.sprite = ImgSelection.sprite;
+            img.sprite = ImgSelection.sprite;//overwrite set sprite if correct scene
     }
-
+    //set AR object location
     bool TryGetPosition(out Vector2 touchPosition)
     {
         if (Input.touchCount ==1)
@@ -34,7 +34,7 @@ public class Placer : MonoBehaviour
         touchPosition = default;
         return false;
     }
-
+    //change size
     public void zoom(float inc) {
         prefab.transform.localScale = new Vector3(Mathf.Abs(prefab.transform.localScale.x+inc), Mathf.Abs(prefab.transform.localScale.y+inc), Mathf.Abs(prefab.transform.localScale.z+inc));
     }
@@ -42,7 +42,7 @@ public class Placer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.touchCount == 1)
+        if (Input.touchCount == 1) //one finger to set position
         {
             touchPosition = Input.GetTouch(0).position;
             if (aRRaycastManager.Raycast(touchPosition, hits, TrackableType.All))
@@ -66,7 +66,7 @@ public class Placer : MonoBehaviour
                 }
             }
         }
-        else if (Input.touchCount == 2) {
+        else if (Input.touchCount == 2) {//two fingers to change size
             Touch touchZero = Input.GetTouch(0);
             Touch touchOne = Input.GetTouch(1);
 

@@ -12,7 +12,7 @@ public class inputSearch : MonoBehaviour, IPointerDownHandler
     public void OnPointerDown(PointerEventData eventData)
     {
         if (search.text.Length > 0) {
-            holder.url = search.text;
+            holder.url = search.text;//overwrite stored url for retrieving image
             SceneManager.LoadScene(2);
 
         } 

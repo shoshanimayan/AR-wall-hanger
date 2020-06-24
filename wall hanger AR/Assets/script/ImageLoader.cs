@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class ImageLoader : MonoBehaviour
 {
     public Image thisRenderer;
-    public Material m;
+   // public Material m;
     // automatically called when game started
     void Start()
     {

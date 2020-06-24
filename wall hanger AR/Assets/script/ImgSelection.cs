@@ -2,11 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.Collections.Generic;
-using System.Net;
-using System.IO;
-using UnityEngine.Networking;
-using UnityEngine.UI;
-using System;
+
 using UnityEngine.SceneManagement;
 
 public class ImgSelection : MonoBehaviour

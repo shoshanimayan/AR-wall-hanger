@@ -8,10 +8,10 @@ using UnityEngine.SceneManagement;
 
 public class frame : MonoBehaviour, IPointerDownHandler
 {
-
+    //ui class for menu scene
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log("down");
+        //Debug.Log("down");
         ImgSelection.sprite = GetComponent<Image>().sprite;
     }
 }
